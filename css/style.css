@@ -1,0 +1,73 @@
+/* Mon commentaire */
+h3 {
+	color: blue;
+	background: aliceblue;
+	text-align: center;
+	clear: both;
+}
+p {
+	color: gray;
+	text-align: justify;
+}
+.montitre3 {
+	font-family: cursive;
+}
+#adnpy {
+	text-decoration: underline;
+	background: black;
+}
+
+.classe-vicieuse {
+	background: gray !important;
+}
+p strong {
+	font-size: 30px;
+}
+.montitre3 strong {
+	font-size: 10px;
+}
+/*permet de faire flotter mon image à gauche */
+.image-left {
+	float: left;
+	margin: 15px 10px 20px 5px;
+	/*pareil que la ligne d'avant
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	margin-left: 5px; 
+	*/
+	}
+/* permet d'annuler les flottements à gauche*/
+.pcleared {
+	clear: both;
+}
+/* permet de faire flotter mon image à droite*/
+.image-right {
+	float: right;
+	width: 75px;
+	/*le premier chiffre correspond à top-bottom (marges verticales)*/
+	/* le second à left-right (marges horizontales)*/
+	margin: 20px 5px;
+}
+.dolor {
+	clear: right;
+}
+.petite-image {
+	width: 75px;
+}
+.img-box {
+	background-color: pink;
+	float: left;
+	/*permet d'ajouter une marge interne*/
+	/*padding: 20px 10px 5px 15px;*/
+	margin-left: 50px
+	padding-left : 50px;
+	border: 10px solid purple;
+}
+.img-box img {
+	border: 5px dashed rebeccapurple;
+	width: 45px;
+}
+h1 {
+	text-align: center;
+}
